@@ -1,6 +1,6 @@
 # 🐾eStore - Online Pet Store
 
-## 🐾 Project Overview
+##  Project Overview
 An online pet store web application built using Java EE technologies for managing pet products, shopping cart, and orders.
 
 ## Main Screenshots
