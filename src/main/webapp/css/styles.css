@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5ebe0;
+    color: #5a4638;
+}
+
+
+ /* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #e6d7cb;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5a4638;
+    font-weight: bold;
+}
+
+
+/* Login Button */
+.login-btn {
+    background-color: #d4b098;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: #b08a6c;
+}
+
+
+.cart i {
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/imgb.jpg') no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    background-image: url("../images/imgb.jpg");  /* Adjust the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+    font-family: Arial, sans-serif;
+    color: #5C4033; /* Nude-themed text color */
+}
+
+.hero-content h1 {
+	margin-top:50px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.shop-btn {
+    background-color: #d4b098;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Products Section */
+.products {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 360px;
+}
+
+.products h2 {
+    font-size: 30px;
+    color:white;
+    
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff8f0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+}
+
+.product-card button {
+    background-color: #d4b098;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Ensure the page takes full height */
+html, body {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Body container to use Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Ensure body takes at least full viewport height */
+}
+
+/* Main content should take up remaining space */
+.main-content {
+    flex-grow: 1; /* This makes sure the main content grows to take remaining space */
+}
+
+/* Footer */
+footer {
+    background-color: #e6d7cb;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    /* Footer will now stick to the bottom */
+}
+
+
+
+.social-icons a {
+    color: #5a4638;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+
+
+/* Modal Style (Hidden by default) */
+        #loginModal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.4); /* Fallback background color */
+        }       
+       /* Close Button */
+        .close {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+ .close:hover,
+ .close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+  }
+    
+.modal {
+    display: none; /* Initially hidden when the page loads */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent */
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+    color: #5a4638;
+}
+
+.modal-content input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content button {
+    background-color: #d4b098;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #b08a6c;
+}
+
+.login-options {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-options a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-options a:hover {
+    text-decoration: underline;
+}
+
+

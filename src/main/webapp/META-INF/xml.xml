@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+	<servlet>
+		<servlet-name>ProductInsertServlet</servlet-name>
+		<servlet-class>EstorePackage.ProductInsertServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ProductInsertServlet</servlet-name>
+		<url-pattern>/ProductInsertServlet</url-pattern>
+	</servlet-mapping> 
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ProductGetAllServlet</servlet-name>
+		<servlet-class>EstorePackage.ProductGetAllServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ProductGetAllServlet</servlet-name>
+		<url-pattern>/ProductGetAllServlet</url-pattern>
+	</servlet-mapping> 
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ProductUpdateServlet</servlet-name>
+		<servlet-class>EstorePackage.ProductUpdateServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ProductUpdateServlet</servlet-name>
+		<url-pattern>/ProductUpdateServlet</url-pattern>
+	</servlet-mapping> 
+	
+	
+	
+	<servlet>
+		<servlet-name>ProductDeleteServlet</servlet-name>
+		<servlet-class>EstorePackage.ProductDeleteServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ProductDeleteServlet</servlet-name>
+		<url-pattern>/ProductDeleteServlet</url-pattern>
+	</servlet-mapping> 
+	        
+        
+        
+    <!-- user system -->
+    <servlet>
+		<servlet-name>UserInsertServlet</servlet-name>
+		<servlet-class>UserPackage.UserInsertServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UserInsertServlet</servlet-name>
+		<url-pattern>/UserInsertServlet</url-pattern>
+	</servlet-mapping> 
+	
+	
+	
+	 <servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>UserPackage.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping> 
+	
+	
+	
+	 <servlet>
+		<servlet-name>DisplayProductInShopServlet</servlet-name>
+		<servlet-class>Estore.DisplayProductInShopServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DisplayProductInShopServlet</servlet-name>
+		<url-pattern>/DisplayProductInShopServlet</url-pattern>
+	</servlet-mapping> 
+	
+	
+	
+	
+	<servlet>
+	   	 <servlet-name>LogoutServlet</servlet-name>
+	     <servlet-class>UserPackage.LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>LogoutServlet</servlet-name>
+	    <url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+	   	 <servlet-name>AddToCartServlet</servlet-name>
+	     <servlet-class>UserPackage.AddToCartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>AddToCartServlet</servlet-name>
+	    <url-pattern>/AddToCartServlet</url-pattern>
+	</servlet-mapping>
+		
+	<filter>
+    <filter-name>CheckoutFilter</filter-name>
+    <filter-class>EstorePackage.CheckoutFilter</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>CheckoutFilter</filter-name>
+    <url-pattern>/Order.jsp</url-pattern>
+</filter-mapping>
+
+<servlet>
+    <servlet-name>CustomerInquiryServlet</servlet-name>
+    <servlet-class>EstorePackage.CustomerInquiryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CustomerInquiryServlet</servlet-name>
+    <url-pattern>/CustomerInquiryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CreateInquiryServlet</servlet-name>
+    <servlet-class>EstorePackage.CreateInquiryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CreateInquiryServlet</servlet-name>
+    <url-pattern>/CreateInquiryServlet</url-pattern>
+</servlet-mapping>
+	
+	<session-config>
+    <session-timeout>30</session-timeout> <!-- 30 minutes -->
+</session-config>
+
+<servlet>
+    <servlet-name>OrderHistoryServlet</servlet-name>
+    <servlet-class>EstorePackage.OrderHistoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>OrderHistoryServlet</servlet-name>
+    <url-pattern>/OrderHistoryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateInquiryServlet</servlet-name>
+    <servlet-class>EstorePackage.UpdateInquiryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateInquiryServlet</servlet-name>
+    <url-pattern>/UpdateInquiryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>FilteredInquiriesServlet</servlet-name>
+    <servlet-class>EstorePackage.FilteredInquiriesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FilteredInquiriesServlet</servlet-name>
+    <url-pattern>/FilteredInquiriesServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>OrderDetailsServlet</servlet-name>
+    <servlet-class>EstorePackage.OrderDetailsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>OrderDetailsServlet</servlet-name>
+    <url-pattern>/OrderDetailsServlet</url-pattern>
+</servlet-mapping>
+		
+         
+</web-app>

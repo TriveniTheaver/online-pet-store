@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5ebe0;
+    color: #5a4638;
+     background-image: url("../images/imgb.jpg")
+}
+
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: linear-gradient(
+        to right,
+       #d4c0b0, /* Darker shade on the left */
+        #f0e4da, /* Lighter shade in the center */
+        #c9b3a3  /* Darker shade on the right */
+    );
+    color: #5a4638;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+ 
+    
+}
+
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:40px;
+    color: #5a4638;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    color: #5a4638;
+    margin: 0 15px;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5a4638;;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffb703; /* Golden yellow on hover */
+}
+
+
+/* Ensure the page takes full height */
+html, body {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Body container to use Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Ensure body takes at least full viewport height */
+}
+
+/* Main content should take up remaining space */
+.main-content {
+    flex-grow: 1; /* This makes sure the main content grows to take remaining space */
+    padding: 20px;
+}
+
+
+
+/* Footer */
+footer {
+	  background: linear-gradient(
+        to right,
+        #c9b3a3, /* Darker shade on the left */
+        #f0e4da, /* Lighter shade in the center */
+        #c9b3a3  /* Darker shade on the right */
+    );
+    /* background-color: #e6d7cb; Soft green */
+    color: #5a4638;;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Push footer to the bottom */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+    
+}
+
+
+footer .social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s;
+  
+}
+
+footer .social-icons a:hover {
+    color: #ffb703;   
+}
+.social-icons a {
+    color: rgb(79, 86, 61);
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+
