@@ -17,7 +17,7 @@ An online pet store web application built using Java EE technologies for managin
 *Form for adding new products to the inventory with category selection*
 
 ### 🔧 Product CRUD Operations
-![Inquiry CRUD](./screenshots/inquiry_crud.png)
+![Inquiry CRUD](./screenshots/product_manager_crud.png)
 *Customer inquiry management interface with Create, Read, Update, Delete operations*
 
 ### 👤 Client Dashboard
