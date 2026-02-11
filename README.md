@@ -19,7 +19,7 @@ An online pet store web application built using Java EE technologies for managin
 ### 🔧 Product CRUD Operations
 ![Inquiry CRUD](./screenshots/product_manager_crud.png)
 *Customer inquiry management interface with Create, Read, Update, Delete operations*
-
+![Client Dashboard](./screenshots/shop.png)
 ### 👤 Client Dashboard
 ![Client Dashboard](./screenshots/client_dash.png)
 *User dashboard showing order history and account management*
