@@ -1,0 +1,31 @@
+# Compiled class files 
+*.class 
+build/ 
+bin/ 
+target/ 
+ 
+# Eclipse 
+.metadata/ 
+.settings/ 
+.classpath 
+.project 
+ 
+# Package Files 
+*.jar 
+*.war 
+*.ear 
+*.zip 
+*.tar.gz 
+ 
+# Logs 
+*.log 
+logs/ 
+ 
+# IDE 
+.idea/ 
+*.iml 
+*.ipr 
+ 
+# OS 
+.DS_Store 
+Thumbs.db 
