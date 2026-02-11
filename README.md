@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./screenshots/home.png" alt="eStore Banner" width="100%" />
-</p>
 
 # 🐾 eStore – Online Pet Store
 
