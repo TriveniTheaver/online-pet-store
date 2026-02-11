@@ -3,7 +3,7 @@
 ## 🐾 Project Overview
 An online pet store web application built using Java EE technologies for managing pet products, shopping cart, and orders.
 
-## 📸 Product Management Screenshots
+## Main Screenshots
 
 ### 🏠 Homepage Interface
 ![Homepage](./screenshots/home.png)
