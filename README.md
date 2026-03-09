@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-**eStore** is a Java EE-based web application designed for managing an online pet store. The system allows customers to browse products, manage their cart, and place orders, while administrators can perform full product management and inventory operations.
+**eStore** is a Java web application designed for managing an online pet store. The system allows customers to browse products, manage their cart, and place orders, while administrators can perform full product management and inventory operations.
 
 This project was developed as a university group assignment.
 
